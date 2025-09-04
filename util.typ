@@ -24,8 +24,6 @@
   if repr(day).contains("Sun") [D]
 }
 
-
-
 #let secuencia-dias(finicio-string, ffin-string, color) = {
   let parse-date(s) = toml(bytes("date = " + s)).date
   let finicio = parse-date(finicio-string)

@@ -36,15 +36,15 @@
 #let azulunir = rgb("#0098cd")
 #set page(
   width: auto,
-  margin: 0.5cm,
+  margin: 0.2cm,
   height: auto,
   fill: gradient.linear(white, aqua.transparentize(70%), angle: 0deg).sharp(2, smoothness: 20%),
   background: [],
 )
 
 #align(center, box(width: 12cm, text(size: 38pt, fill: azulunir, [#context document.title])))
-#place(top + left, dx: 0.5cm, dy: 1cm, text(size: 100pt, fill: azulunir.transparentize(70%), rotate(-25deg, [Q1])))
-#place(top + right, dx: -0.5cm, dy: 1cm, text(size: 100pt, fill: azulunir.transparentize(70%), rotate(25deg, [Q2])))
+#place(top + left, dx: 0.5cm, dy: 1cm, text(size: 100pt, fill: azulunir.transparentize(70%), rotate(0deg, [Q1])))
+#place(top + right, dx: -0.5cm, dy: 1cm, text(size: 100pt, fill: azulunir.transparentize(70%), rotate(0deg, [Q2])))
 
 #v(1cm)
 #stack(
@@ -70,24 +70,9 @@
 )
 
 
-#align(center, [
-  #for evento in eventos-q1 {
-    if evento.at(0).len() == 0 { continue }
-    box(width: 0.5cm, height: 0.5cm, fill: evento.at(1)) + " " + evento.at(0) + h(0.5cm)
-  }
 
-  #for evento in eventos-q2.slice(0, 4) {
-    if evento.at(0).len() == 0 { continue }
-    box(width: 0.5cm, height: 0.5cm, fill: evento.at(1)) + " " + evento.at(0) + h(0.5cm)
-  }
 
-  #for evento in eventos-q2.slice(4) {
-    if evento.at(0).len() == 0 { continue }
-    box(width: 0.5cm, height: 0.5cm, fill: evento.at(1)) + " " + evento.at(0) + h(0.5cm)
-  }
-])
-
-#box(width: 5cm)[#align(center, [
+#box(width: 12.2cm)[#align(center, [
   #for evento in eventos-q1 + eventos-q2 {
     if evento.at(0).len() == 0 { continue }
     box(width: 0.5cm, height: 0.5cm, fill: evento.at(1)) + " " + evento.at(0) + h(0.5cm)
