@@ -6,14 +6,14 @@
 
 #let eventos-q1 = (
   ("Bienvenida", color.yellow.transparentize(50%), "2025-09-25", "2025-10-19"),
-  ("Dociencia Q1", color.aqua.transparentize(50%), "2025-10-20", "2025-10-20"),
+  ("Docencia Q1", color.aqua.transparentize(50%), "2025-10-20", "2025-10-20"),
   ("", color.white.transparentize(100%), "2025-11-20", "2025-11-20"),
   ("Repaso Q1", color.purple.transparentize(50%), "2025-12-22", "2026-01-04"),
   ("Exámenes Q1", color.red.transparentize(50%), "2026-02-20", "2026-02-22"),
 )
 
 #let eventos-q2 = (
-  ("Dociencia Q2", color.aqua.transparentize(50%), "2026-03-02", "2026-03-02"),
+  ("Docencia Q2", color.aqua.transparentize(50%), "2026-03-02", "2026-03-02"),
   ("Repaso Q2", color.purple.transparentize(50%), "2026-03-30", "2026-04-04"),
   ("", color.white.transparentize(100%), "2026-05-01", "2026-05-01"),
   ("Exámenes Q2", color.red.transparentize(50%), "2026-06-26", "2026-06-28"),
