@@ -38,7 +38,7 @@
   width: auto,
   margin: 0.2cm,
   height: auto,
-  fill: gradient.linear(white, aqua.transparentize(70%), angle: 0deg).sharp(2, smoothness: 20%),
+  fill: gradient.linear(white, rgb("#b1f2eb"), angle: -5deg).sharp(2, smoothness: 20%),
   background: [],
 )
 
