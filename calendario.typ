@@ -70,12 +70,10 @@
 )
 
 
-
-
 #box(width: 12.2cm)[#align(center, [
   #for evento in eventos-q1 + eventos-q2 {
     if evento.at(0).len() == 0 { continue }
-    box(width: 0.5cm, height: 0.5cm, fill: evento.at(1)) + " " + evento.at(0) + h(0.5cm)
+    box(box(width: 0.5cm, height: 0.5cm, fill: evento.at(1)) + " " + evento.at(0) + h(0.5cm))
   }
 ])]
 
