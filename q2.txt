@@ -1,0 +1,56 @@
+1er curso - 2Q
+Estadística básica
+Química
+Física actual
+Historia y didáctica de la Física
+Física forense y arqueometría
+
+2o curso - 1Q
+Cálculo
+Álgebra
+Física I
+Informática y programación
+Termodinámica
+
+2o curso - 2Q
+Cálculo y geometría diferencial
+Física II
+Cálculo numérico
+Variable compleja
+Geofísica y fuentes de energía
+
+3er curso - 1Q
+Ecuaciones diferenciales
+Teoría de campos
+Electromagnetismo I
+Comunicación científica
+Teledetección y procesado de imágenes
+Física médica y del deporte
+
+3er curso - 2Q
+Mecánica clásica
+Electromagnetismo II
+Óptica geométrica y radiación
+Termodinámica de la atmósfera
+Meteorología y climatología
+
+4o curso - 1Q
+Termodinámica avanzada
+Electrónica analógica
+Física cuántica I
+Óptica física
+Mecánica de fluidos
+
+4o curso - 2Q
+Física cuántica II
+Relatividad y cosmología
+Programación avanzada y cuántica
+Astrofísica
+TFG
+
+5o curso - 1Q
+Electrónica digital
+Física de materiales
+Física nuclear y de partículas
+Ingeniería nuclear y protección radiológica
+Métodos físicos para la economía
